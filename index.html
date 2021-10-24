@@ -4,70 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moja pierwsza strona WWW!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap">
     <link rel="stylesheet" href="styles.css">
-    
 </head>
 <body>
-
-    <header>
-        <h1>Witaj na mojej pierwszej&nbsp;stronie!</h1> 
+    <!-- <div class="first-class">
+        <div class="second-class">
+            <h1 style="color: chartreuse;" id="first-id" class="third-class">Text</h1>
+        </div>
+    </div> -->
+    <header >
+        <h1>Witaj na mojej pierwszej stronie!</h1> 
         <a href="kontakt.html">Skontaktuj się ze mną</a>
         <!-- <a href="https://www.google.com">Znajdź w Google!</a> -->
-        <br>     
     </header>
 
-    <article>
-        <h3>To jest pierwszy tekst na stronie</h3>
-        <p>To jest treść pierwszego &lt;coś&gt; posta...</p>
-        <br> <!-- Nowa linia -->
-    </article>
-  
-   <article>
-        <h3>To jest drugi tekst na stronie</h3>
-        <p>To jest <mark>treść</mark> drugiego <mark>posta</mark>...</p>
-        <br> <!-- Nowa linia --> 
-   </article>
+    <div id="main-content">
+
+        <section id="articles"> 
+
+            <article>
+                <h3>To jest pierwszy tekst na stronie</h3>
+                <p>To jest <mark>treść</mark> pierwszego &lt;coś&gt; posta...</p>
+            </article>
     
-   <article>
-    <h3>To jest trzeci tekst na stronie</h3>
-    <p>To jest treść trzeciego posta...
-    <br>Kontynuuj pisanie od <i>nowej linii.<sup class="sup_element" style="color: red;">*</sup></i></p>
-    <small><sup>*</sup>Wyjaśnienie.</small>
-   </article>
-   
-   <br> <!-- Nowa linia -->
-   <br> <!-- Nowa linia -->
-   <br> <!-- Nowa linia -->
+      
+          
+           <article>
+                <h3>To jest drugi tekst na stronie</h3>
+                <p>To jest <b>treść</b> drugiego <mark>posta</mark>...</p>
+           </article>
+    
+      
+            
+           <article>
+            <h3>To jest trzeci tekst na stronie</h3>
+            <p>To jest treść trzeciego posta...
+            <br>Kontynuuj pisanie od <i>nowej linii.<sup class="sup_element" >*</sup></i></p>
+            <small><sup class="sup_element">*</sup>Wyjaśnienie.</small>
+           </article>
 
+        </section>
 
-   <div><h2>Moje umiejętnośći:</h2> <!-- <div> jest elementem blokowym -->
+       <br>
        
+   <div id="umiejetnosci"> <!-- <div> jest elementem blokowym -->
+       
+    <b style="font-size: 34px; font-weight: 900; color: red;">Umiejętności:</b> 
 
-       <table border="2">
+       <table>
            <tr>
                <th>Technologia</th>
                <th>Poziom</th>
            </tr>
            <tr>
                <td>HTML</td>
-               <td>5</td>
+               <td>8</td>
            </tr>
            <tr>
                <td>CSS</td>
-               <td>0</td>
+               <td>8</td>
            </tr>
+           <tr>
+            <td>JavaScript</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>Selenium</td>
+            <td>55%</td>
+        </tr>
        </table>
+
    </div>
 
-   <br> <!-- Nowa linia -->
-   <br> <!-- Nowa linia -->
-   <br> <!-- Nowa linia -->
-   <br> <!-- Nowa linia -->
+</div>
+
 
 <footer>
     <div>    
-        Footer area.
-        <br> &copy; Aleksandra <strong>Weber</strong>
+        Stopka.
+        &copy; <b>Aleksandra</b> <strong>Weber</strong></b>
     </div>
 </footer>
 
