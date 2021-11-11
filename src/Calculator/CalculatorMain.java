@@ -45,6 +45,7 @@ public class CalculatorMain {
 
         sleep();
 
+
         System.out.println("Divide:");
         sleep();
         System.out.println("First number to divide:");
